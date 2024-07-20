@@ -5,8 +5,14 @@
 }
 body{
     background-color: #414141;
+    font: 10px;
+}
+#p1{
+    /* font-size: 15px; */
 }
 #navbar{
+    position: fixed;
+    top: 0%;
    background-color: #0f1111; 
    height: 60px;
    border: 3px solid white;
@@ -15,6 +21,7 @@ button{
     background-color: #f08804;
 }
 #logo{
+    display: ;
     color: #f08804;
     font-size: 25px;
     margin-right:200px ;
@@ -22,6 +29,32 @@ button{
 #input{
     color: black;
     text-decoration: none;
+}
+#d1{
+    position: absolute;
+    top: 60px;
+    width: 100px;
+    height: 100px;
+    border: 2px white solid;
+    display: inline-block;
+}
+#d2
+{
+    position: absolute;
+    top: 60px;
+    left: 55vw;
+    width: 100px;
+    height: 100px;
+    border: 2px white solid;    
+    display: inline-block;
+}
+#d3{ 
+    position: absolute;
+    top: 60px;
+    width: 100px;
+    height: 100px;
+    border: 2px white solid;
+    display: inline-block;   
 }
 #account{
     margin-right: 200px;
@@ -33,7 +66,7 @@ text-decoration: none;
 
 }
 #cont{
-margin-right: 150px;
+margin-right: 140px;
 text-decoration: none;
 
 }
