@@ -70,7 +70,7 @@
    
     justify-content: space-evenly;
     height: 38px;
-    width: 340px;
+    width: 550px;
     /* color: black;   */
     border-radius: 4px;
     align-items: center;
@@ -114,8 +114,11 @@
 
 /* Language Box */
 .nav-country{
-    height: 16px;
-    width: 22px;
+    align-items: center;
+    /* text-align: center; */
+    margin-left: 15px;
+    height: 48.5px;
+    width: 80px;
 }
 .nav-country{
     display: flex; 
