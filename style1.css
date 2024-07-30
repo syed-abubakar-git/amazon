@@ -202,13 +202,14 @@ width: 58px; */
 .shop{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     background-color: #3184f0a5;
 }
 .box{
     /* border: 2px solid black; */
     width: 290px;
     height: 410px;
-    /* margin-bottom: ; */
+    margin-bottom: 10px;
     background-color: white;
 }
 .image{
@@ -246,5 +247,97 @@ width: 58px; */
     height: 410px;
     margin-left: 20px;
     /* text-align: center; */
+}
+.back{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 0.85rem;
     
+}
+
+.back:hover{
+
+    background-color: #42546b;
+
+}
+.foot-panel1{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 25px;
+}
+ul a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+ul a:hover{
+    text-decoration: underline;
+}
+.foot-panel2{
+    background-color: rgba(0, 0, 0, 0.952);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footlogo{
+    background-color: #222f3d;
+    background-image: url(logo.png);
+    height: 40px;
+    width: 100px;
+    background-size: cover;
+    margin-right: 100px;
+}
+hr {
+    border: none; 
+    margin-top: 0.5px;
+}
+.footoption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5%;
+    height: 30px;
+    width: 150px;
+    margin-right: 10px;
+    
+}
+.search{
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+}
+.foot-panel3{
+    padding-top: 20px;
+    /* box-shadow: 0 0 0 20px #222f3d; */
+    height: 80px;
+    width: 100%;
+    background-color: #222f3d;
+    align-items: center;
+    text-align: center;
+}
+.terms a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: smaller;
+}
+.terms a:hover{
+    text-decoration: underline;
 }
