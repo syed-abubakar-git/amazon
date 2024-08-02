@@ -15,12 +15,7 @@
     align-items: center;
     justify-content: space-evenly;
 }
-/* @media(min-width:430px) 
-{
-    .nav-bar{
-        width: 430px;
-    }
-} */
+
 /* logo */
 .nav-logo{
     height: 50px;
@@ -346,4 +341,12 @@ hr {
 }
 .terms a:hover{
     text-decoration: underline;
+}
+
+@media(max-width:600px) 
+{
+    .nav-bar{
+        height: 80px;
+        /* background-color: pink; */
+    }
 }
