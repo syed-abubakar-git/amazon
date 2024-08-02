@@ -343,7 +343,7 @@ hr {
     text-decoration: underline;
 }
 
-@media(max-width:600px) 
+@media(max-width:750px)
 {
     .nav-bar{
         height: 80px;
